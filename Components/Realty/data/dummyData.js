@@ -121,35 +121,38 @@ export const amenitiesTabs = [
 ];
 
 export const lifestyleAmenities = [
-  { img: "/realty/images/dp-project-1-.webp", title: "Swimming Pool" },
-  { img: "/realty/images/dp-life-2.webp", title: "Club House" },
-  { img: "/realty/images/dp-life-3.webp", title: "Landscaped Courtyard Gardens" },
-  { img: "/realty/images/dp-life-4.webp", title: "Party Lawns" },
-  { img: "/realty/images/dp-life-5.webp", title: "Gazebo with Promenade Seating" },
-  { img: "/realty/images/dp-life-6.webp", title: "Sky Club with Cinematic Views" },
+  { img: "/images/dp-life-1.webp", title: "Sky Club Lounge" },
+  { img: "/images/dp-life-2.webp", title: "Club House" },
+  { img: "/images/dp-life-3.webp", title: "Multipurpose Party Space" },
+  { img: "/images/dp-life-4.webp", title: "Luxe Woodline Pool" },
+  { img: "/images/dp-life-5.webp", title: "Vapor Spa" },
+  { img: "/images/dp-life-6.webp", title: "Open Sky-White Garden Cafe" },
+  { img: "/images/dp-life-7.webp", title: "Harmony Yard" },
+  { img: "/images/dp-life-8.webp", title: "Gazebo With Promenade Deck Seating" },
+
+  
 ];
 export const communityAmenities = [
-  { img: "/realty/images/dp-spaces-1.webp", title: "Clubhouse & Multipurpose Hall" },
-  { img: "/realty/images/dp-spaces-2.webp", title: "Open-Air Cafeteria" },
-  { img: "/realty/images/dp-spaces-3.webp", title: "Community Coffee Shop" },
-  { img: "/realty/images/dp-spaces-4.webp", title: "Mandir Within the Community" },
-  { img: "/realty/images/dp-spaces-5.webp", title: "Senior Citizen Sit-Out Areas" },
+  { img: "/images/dp-spaces-1.webp", title: "Safe and Friendly Space for Senior Citizens & Children" },
+  { img: "/images/dp-spaces-2.webp", title: "Courtyard Garden And Party Lawns" },
+  { img: "/images/dp-spaces-3.webp", title: "Leisure lawn & Junior lounge" },
+ 
 ];
 export const fitnessAmenities = [
-  { img: "/realty/images/dp-fit-1.webp", title: "Fully Equipped AC Gymnasium" },
-  { img: "/realty/images/dp-fit-2.webp", title: "Steam, Sauna & Jacuzzi" },
-  { img: "/realty/images/dp-fit-3.webp", title: "Walking & Jogging Track" },
-  { img: "/realty/images/dp-fit-4.webp", title: "Serene Green Surroundings" },
+  { img: "/images/dp-fit-1.webp", title: "Open Air Gym" },
+  { img: "/images/dp-fit-2.webp", title: "Jogging Track" },
+ 
 ];
 export const infraAmenities = [
-  { img: "/realty/images/dp-infra-1.webp", title: "Internal RCC Roads" },
-  { img: "/realty/images/dp-infra-2.webp", title: "Spacious Parking Facilities" },
-  { img: "/realty/images/dp-infra-3.webp", title: "Dedicated Parking" },
-  { img: "/realty/images/dp-infra-4.webp", title: "RO System in Each Unit" },
-  { img: "/realty/images/dp-infra-5.webp", title: "24-Hour Power Backup" },
+  { img: "/images/dp-infra-1.webp", title: "24 Hours Power Backup for Emergency Services" },
+  { img: "/images/dp-infra-2.webp", title: "Spacious Parking" },
+  { img: "/images/dp-infra-3.webp", title: "Internal RCC Road" },
+  { img: "/images/dp-infra-4.webp", title: "Serene View with Facing Water Body" },
+  { img: "/images/dp-infra-5.webp", title: "R.O. System in Each Unit" },
+  { img: "/images/dp-infra-6.webp", title: "Lush Airy Green Environment" },
+  
 ];
 export const saftyAmenities = [
-  { img: "/realty/images/dp-safty-1.webp", title: "24/7 CCTV Surveillance" },
-  { img: "/realty/images/dp-safty-2.webp", title: "Round-the-Clock Security" },
+  { img: "/images/dp-safty-1.webp", title: "Round The Clock Security" },
+ 
 ];
-

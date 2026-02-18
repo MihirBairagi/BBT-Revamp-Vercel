@@ -63,6 +63,12 @@ function TowerSection() {
             {activeTower === "1" && (
                 <ul className="flex flex-wrap gap-y-[2rem] gap-x-[1rem] mt-[3rem] lg:gap-y-[4rem] lg:justify-between 3xl:mt-[5rem]">
                 <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
+                    <img className='w-full' src="/realty/images/tower-1-img-0.webp" alt="" />
+                    <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
+                    Tower Plan A
+                    </p>
+                </li>
+                <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
                     <img className='w-full' src="/realty/images/tower-1-img-1.webp" alt="" />
                     <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
                     Typical floor plan ( 1st to 7th )
@@ -99,6 +105,12 @@ function TowerSection() {
             {/* TOWER 2 DATA */}
             {activeTower === "2" && (
                 <ul className="flex flex-wrap gap-y-[2rem] gap-x-[1rem] mt-[3rem] lg:gap-y-[4rem] lg:justify-between 3xl:mt-[5rem]">
+                    <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
+                        <img className='w-full' src="/realty/images/tower-2-img-0.webp" alt="" />
+                        <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
+                        Tower Plan B
+                        </p>
+                    </li>
                     <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
                         <img className='w-full' src="/realty/images/tower-2-img-1.webp" alt="" />
                         <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
@@ -137,6 +149,12 @@ function TowerSection() {
             {activeTower === "3" && (
                 <ul className="flex flex-wrap gap-y-[2rem] gap-x-[1rem] mt-[3rem] lg:gap-y-[4rem] lg:justify-between 3xl:mt-[5rem]">
                     <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
+                        <img className='w-full' src="/realty/images/tower-3-img-0.webp" alt="" />
+                        <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
+                        Tower Plan C
+                        </p>
+                    </li>
+                    <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
                         <img className='w-full' src="/realty/images/tower-3-img-1.webp" alt="" />
                         <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
                         Typical floor plan ( 1st to 7th )
@@ -173,6 +191,12 @@ function TowerSection() {
             {/* TOWER 4 DATA */}
             {activeTower === "4" && (
                 <ul className="flex flex-wrap gap-y-[2rem] gap-x-[1rem] mt-[3rem] lg:gap-y-[4rem] lg:justify-between 3xl:mt-[5rem]">
+                    <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
+                        <img className='w-full' src="/realty/images/tower-4-img-0.webp" alt="" />
+                        <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
+                        Tower Plan D
+                        </p>
+                    </li>
                     <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
                         <img className='w-full' src="/realty/images/tower-4-img-1.webp" alt="" />
                         <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">

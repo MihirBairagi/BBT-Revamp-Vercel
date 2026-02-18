@@ -77,7 +77,7 @@ function ContactUs() {
                     <div className="head-box">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem] text-[#6C6C6C]' >Contact Us</p>
                         <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] 3xl:mb-[2rem]' ><strong>Reach out</strong> for project details and assistance.</h2>
-                        <p className='para font-[300]' >For enquiries, appointments, or project details, our team is available to assist.</p>
+                        <p className='para font-[300]' >Our team is available to share project information, site visit details, and personalised guidance—at your convenience.</p>
                     </div>
                     <div className="info-box mt-[1rem]">
                       <div className="flex flex-col-reverse lg:flex-col">

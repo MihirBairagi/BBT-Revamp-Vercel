@@ -123,7 +123,7 @@ const Header = ({}) => {
                             </div>
                             <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
                                 <h4 className="f-22" >Pavilion</h4>
-                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Launching In FEB</h5>
+                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Launching In April</h5>
                                 <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
                                     <span>
                                         <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/realty/images/h-pro-location.png" alt="" />

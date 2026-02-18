@@ -22,7 +22,9 @@ const BannerSection = () => {
                     >
                         <p className='max-[1023px]:text-[1.5rem] f-18 mb-[0.8rem] flex w-max items-center mx-auto' >
                             <span><img className='w-[1.5rem] mr-[1rem]' src="/realty/images/h-pro-location.png" alt="" /></span>
-                            Luxury Residences in Vadodara
+                            <a href="https://maps.app.goo.gl/Eyc9unqTKDJsE4da9" target="_blank">
+                                Luxury Residences in Vadodara
+                            </a>
                         </p>
                         <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2] lg:w-[100%] lg:mx-auto' ><strong>Pavilion</strong> <br/>Contemporary Living Designed with Purpose</h1>
                         <p className="hidden lg:block para mt-[0.5rem] lg:w-[60%] lg:mx-auto" >Thoughtfully designed residences, expansive layouts, and curated lifestyle amenities come together to create one of Vadodara’s most distinguished residential communities.</p>

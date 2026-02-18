@@ -91,14 +91,14 @@ function LocateUsSection() {
                     <div>
                         <img className='w-full' src="/realty/images/dp-map.webp" alt="" />
                     </div>
-                    <div className=" absolute w-full h-full p-[1.5rem] bottom-0 left-0 flex justify-between items-end bg-[linear-gradient(180deg,rgba(232,232,232,0)_38.05%,#E7E7E7_81.33%)] lg:p-[2rem] 2xl:p-[3rem]">
-                        <div className="flex justify-between items-center">
+                    <div className=" absolute w-full h-full p-[1.5rem] bottom-0 left-0 flex justify-between items-end lg:p-[2rem] 2xl:p-[3rem]">
+                        <div className="flex justify-between items-center invert-[100%]">
                             <div className='w-[70%]' >
                                 <h3 className='max-[1023px]:text-[2rem] mb-[1rem]' >Pavilion</h3>
                                 <p className='para' >Baba Marbles Road, Behind Samanvay Status, Atladara- Padra State Highway, Village Bil, Tehsil & District Vadodara, 391410, Gujarat.</p>
                             </div>
                             <div className='ml-[1.5rem]' >
-                                <a href="">
+                                <a target='_blank' href="https://maps.app.goo.gl/Eyc9unqTKDJsE4da9">
                                     <img className='w-[8rem]' src="/realty/images/dp-map-enlarge.webp" alt="" />
                                 </a>
                             </div>

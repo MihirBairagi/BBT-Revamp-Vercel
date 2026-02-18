@@ -23,8 +23,8 @@ function BannerSection() {
                 >
                     <div className="text-box text-white text-center lg:text-start lg:w-[50%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 mb-[0.8rem] font-[200]' >Contact Us</p>
-                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2]' >Connect with <strong>BBt Realty</strong></h1>
-                        <p className="para mt-[0.8rem]" >Our team is here to assist you with project details, site visits, and personalised guidance</p>
+                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2]' >Connect <strong>Big Boy Toyz Realty</strong></h1>
+                        <p className="para mt-[0.8rem]" >For enquiries, appointments, or project details, our team is available to assist.</p>
                     </div>
                 </div>
             </div>

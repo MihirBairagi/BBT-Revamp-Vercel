@@ -2344,7 +2344,7 @@ img,
   animation: rotate360 6s linear infinite;
 }
 section#amenities-scroll .slick-track {
-    margin-left: 0;
+    margin-left: auto;
 }
 
 @media (max-width: 1280px) and (min-width: 1024px) {
