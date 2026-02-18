@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1024px) {
+  .top-dealer-usp-list li:nth-child(even) > div {
+    margin-left: auto;
+    text-align: right;
+    flex-direction: row-reverse;
+  }
+  .top-dealer-usp-list li:nth-child(even) .text-box {
+    padding-left: 0;
+    padding-right: 2rem;
+  }
+}

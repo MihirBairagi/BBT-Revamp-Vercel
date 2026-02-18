@@ -1,0 +1,121 @@
+.specTabList {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.specTabItem {
+  border: 1px solid #000;
+}
+.specTabList li.active {
+  background-color: #000;
+}
+.specTabItem:hover span,
+.specTabItem.active span {
+  color: #fff;
+}
+.tabContentList {
+  border-bottom: 1px solid rgba(69, 69, 69, 0.3);
+}
+.tabContentList:last-child {
+  border: none;
+}
+.paidFeatureList li::before {
+  content: "";
+  width: 1.4rem;
+  height: 1rem;
+  background-image: url("/images/detail-page/detail-feature-checkmark.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: invert(1);
+}
+@media only screen and (min-width: 640px) {
+  .carSummeryItem {
+    border-left: 1px solid #d9d9d9;
+  }
+  .carSummeryItem:nth-child(3n) {
+    border-right: 1px solid #d9d9d9;
+  }
+  .detailInfoUsp li:last-child {
+    border-right: 1px solid #cfcfcf;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .carSummeryItem:nth-child(3n) {
+    border-right: 0;
+  }
+  .carSummeryItem:nth-child(4n) {
+    border-right: 1px solid #d9d9d9;
+  }
+  .paidFeatureList li::before {
+    filter: none;
+  }
+  .detailInfoUsp li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .detailInfoUsp li img {
+    height: 1.6rem;
+  }
+  .detailInfoUsp li p {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    margin-top: 1.5rem;
+  }
+  .detailInfoUsp li:first-child {
+    border-left: 1px solid #cfcfcf;
+    padding-left: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .paidFeatureList li::before {
+    width: 2.3rem;
+    height: 1.7rem;
+  }
+  .detailInfoUsp li,
+  .detailInfoUsp li:first-child {
+    padding: 1rem 1rem 1rem 3rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .paidFeatureList li::before {
+    width: 2.6rem;
+    height: 2rem;
+  }
+  .detailInfoUsp li,
+  .detailInfoUsp li:first-child {
+    padding: 1rem 1rem 1rem 3rem;
+  }
+  .detailInfoUsp li img {
+    height: 1.9rem;
+  }
+  .detailInfoUsp li p {
+    font-size: 1.3rem;
+    margin: 1.2rem 0;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .paidFeatureList li::before {
+    width: 3rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .paidFeatureList li::before {
+    width: 3.5rem;
+    height: 2.5rem;
+  }
+  .detailInfoUsp li img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .detailInfoUsp li p {
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,57 @@
+.presence-slider .slick-list {
+    padding: 0 7% 0 0 !important;
+  }
+  .presence-slider .slick-arrow {
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 50%;
+    border: 1px solid #DFDFDF;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: unset;
+    bottom: -3.8rem;
+    transition: all 0.5s ease;
+  }
+  .presence-slider .slick-arrow::before {
+    display: none;
+  }
+  .presence-slider .slick-arrow.slick-next {
+    right: 2rem;
+  }
+  .presence-slider .slick-arrow.slick-prev {
+    right: 6.5rem;
+    left: unset;
+  }
+  
+  @media only screen and (min-width: 639px) {
+    .presence-slider .slick-list {
+      padding: 0 15% 0 0 !important;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) {
+    .presence-slider .slick-list {
+      padding: 0 7% 0 0 !important;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .presence-slider .slick-arrow.slick-next {
+      right: 8%;
+    }
+    .presence-slider .slick-arrow.slick-prev {
+      right: calc(8% + 5rem);
+    }
+  }
+  @media only screen and (min-width: 1920px) {
+    .presence-slider .slick-arrow {
+      width: 4.88rem;
+      height: 4.88rem;
+      bottom: -4.8rem;
+    }
+    .presence-slider .slick-arrow.slick-prev {
+      right: calc(8% + 7rem);
+    }
+  }
+  

@@ -1,0 +1,128 @@
+.sellCarMarqueeItem::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.sellCarMarquee::before,
+.sellCarMarquee::after {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  height: 6rem;
+  top: 0;
+  z-index: 5;
+}
+.sellCarMarquee::before {
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(23, 23, 23, 1) 0%,
+    rgba(23, 23, 23, 0.7) 74%,
+    rgba(23, 23, 23, 0) 100%
+  );
+}
+.sellCarMarquee::after {
+  right: 0;
+  background-image: linear-gradient(
+    to left,
+    rgba(23, 23, 23, 1) 0%,
+    rgba(23, 23, 23, 0.7) 70%,
+    rgba(23, 23, 23, 0) 100%
+  );
+}
+
+.sellCarNumber {
+  padding-top: 8rem;
+}
+.sellCarNumber span {
+  font-size: 20.2rem;
+  line-height: 1;
+  z-index: 1;
+  margin: 0 0.7rem;
+}
+.sellCarNumber span:nth-of-type(1) {
+  z-index: 5;
+}
+.sellCarImg {
+  width: 100%;
+  max-width: 33rem;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+@media only screen and (min-width: 1024px) {
+  .sectionHeading::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    width: 70%;
+    height: 0.5px;
+    right: 0;
+  }
+  .sellCarNumber {
+    padding-top: 0;
+  }
+  .sellCarNumber span:nth-of-type(1) {
+    z-index: 1;
+  }
+  .sellCarNumber span {
+    font-size: 32rem;
+  }
+  .sellCarImg {
+    max-width: 20rem;
+    top: -2rem;
+  }
+  .marqueeWrapper {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .sectionHeading::before {
+    width: 75%;
+    right: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sellCarNumber span {
+    font-size: 34rem;
+  }
+  .sellCarImg {
+    max-width: 22rem;
+    top: -2rem;
+  }
+}
+@media only screen and (min-width: 1536px){
+  .sellCarNumber span {
+    font-size: 36rem;
+  }
+  .sellCarImg {
+    max-width: 24rem;
+    top: -3rem;
+    left: 52%;
+  }
+}
+@media only screen and (min-width: 1920px){
+  .sellCarNumber span {
+    font-size: 48rem;
+  }
+  .sellCarImg {
+    max-width: 30rem;
+  }
+  .sellCarMarqueeItem::before{
+    width: 7px;
+    height: 7px;
+  }
+}

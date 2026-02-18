@@ -1,0 +1,29 @@
+.sell-car-slider .slick-list {
+  padding: 0 20% 0 0 !important;
+}
+
+.sell-car-slider .slick-arrow {
+  width: 3.7rem;
+  height: 3.7rem;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: unset;
+  bottom: -8.5rem;
+}
+.sell-car-slider .slick-arrow::before {
+  display: none;
+}
+.sell-car-slider .slick-arrow.slick-next {
+  right: 2rem;
+}
+.sell-car-slider .slick-arrow.slick-prev {
+  right: 6.5rem;
+  left: unset;
+}
+.sell-car-page .back-to-top {
+  bottom: 10rem;
+}

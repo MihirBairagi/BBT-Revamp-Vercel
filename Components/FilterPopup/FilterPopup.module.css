@@ -1,0 +1,82 @@
+.filterBrands li.active,
+.budgetItem.active,
+.categoryItem.active{
+  border-color: #000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 1280px) {
+  .budgetItem:hover,
+  .categoryItem:hover {
+    border-color: #000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+  }
+}
+
+.filterBrands {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.filterBrands::-webkit-scrollbar {
+  display: none;
+}
+
+.budgetItem {
+  min-width: 120px;
+}
+
+.budgetItem.active {
+  background-color: black;
+  color: white;
+}
+
+.categoryItem {
+  transition: all 0.3s ease;
+}
+
+.categoryItem:hover {
+  transform: translateY(-5px);
+}
+
+.categoryItem.active {
+  background-color: black;
+  color: white;
+}
+
+/* Three column grid layout */
+.three-column-item {
+  width: calc(33.333% - 2.33%);
+  margin-right: 3.5%;
+}
+
+.three-column-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+@media (min-width: 1024px) {
+  .three-column-item {
+    width: calc(20% - 2%);
+    margin-right: 2.5%;
+  }
+  
+  .three-column-item:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+/* Hover effects */
+.categoryItem .group:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.categoryItem .group:hover img {
+  transform: scale(1.05);
+}
+
+.categoryItem .group img {
+  transition: transform 0.3s ease;
+}

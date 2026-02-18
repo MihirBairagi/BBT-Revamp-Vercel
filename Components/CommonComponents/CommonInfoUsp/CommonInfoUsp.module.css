@@ -1,0 +1,57 @@
+
+@media only screen and (min-width: 640px) {
+
+  .detailInfoUsp li:last-child {
+    border-right: 1px solid #cfcfcf;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .detailInfoUsp li{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .detailInfoUsp li img{
+    height: 1.6rem;
+  }
+  .detailInfoUsp li p{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    margin-top: 1.5rem;
+  }
+  .detailInfoUsp li:first-child {
+    border-left: 1px solid #cfcfcf;
+    padding-left: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .detailInfoUsp li,
+  .detailInfoUsp li:first-child{
+    padding: 1rem 1rem 1rem 3rem;
+  }
+}
+@media only screen and (min-width: 1440px){
+  .detailInfoUsp li,
+  .detailInfoUsp li:first-child{
+    padding: 1rem 1rem 1rem 3rem;
+  }
+  .detailInfoUsp li img{
+    height: 1.9rem;
+  }
+  .detailInfoUsp li p{
+    font-size: 1.3rem;
+    margin: 1.2rem 0;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (min-width: 1920px){
+  .detailInfoUsp li img{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .detailInfoUsp li p{
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+}

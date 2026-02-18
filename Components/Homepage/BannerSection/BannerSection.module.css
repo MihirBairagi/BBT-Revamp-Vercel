@@ -1,0 +1,48 @@
+.hpBannerBtnMob {
+  /* -webkit-backdrop-filter: blur(8px); 
+  backdrop-filter: blur(8px); 
+  background-color: rgba(255, 255, 255, 0.25); */
+  background-color: #646464;
+  --offset: 1px;
+}
+.hpBannerBtnMob span.arrow {
+  box-shadow: rgba(255, 255, 255, 0.18) 0px 10px 15px -3px,
+    rgba(255, 255, 255, 0.05) 0px 4px 6px -2px;
+}
+
+.hpBannerBtnMob::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  aspect-ratio: 1;
+  width: 100%;
+  background: conic-gradient(from 0deg, transparent 270deg, white, transparent);
+  transform: translate(-50%, -50%) scale(1.4) rotate(0deg);
+  animation: rotate 3s linear infinite; /* ensure constant speed */
+  will-change: transform; /* improves GPU smoothness */
+}
+
+/* keeps your background intact */
+.hpBannerBtnMob::after {
+  content: "";
+  position: absolute;
+  inset: var(--offset);
+  border-radius: inherit;
+  background: inherit;
+  z-index: 1;
+}
+
+/* perfectly linear rotation */
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) scale(1.4) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1.4) rotate(360deg);
+  }
+}
+.searchActive {
+  border-color: #fff;
+  box-shadow: 0 0 9px 1px #949494;
+}

@@ -1,0 +1,46 @@
+.hilux-lp-banner {
+  background: url("/images/landing-pages/hilux/banner-bg.webp") no-repeat center;
+  background-size: cover;
+}
+.hilux .header,
+.hilux .footer {
+  display: none;
+}
+.hilux-why-us::after,
+.hilux-why-us::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 6rem;
+  background: linear-gradient(to bottom, #F4F4F1 0%, #F4F4F1 40%, rgba(142, 142, 140, 0) 100%);
+}
+.hilux-why-us::after{
+  right: 0;
+  left: unset;
+}
+.hilux-why-us .wrapper {
+  background: url("/images/landing-pages/hilux/why-us-bg.webp") no-repeat center;
+  background-size: cover;
+}
+.hilux-about-section {
+  background: linear-gradient(180deg, #0f0f0f 0%, #373737 136.78%);
+}
+.hilux-about-usp li:last-child div {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.intro-gradient-price {
+  background: linear-gradient(to right, #c2c2c2 0%, #4d4d4d 100%);
+}
+.hilux-about-usp .count {
+  background: linear-gradient(to bottom, #3D3D3D 0%, #2C2C2C 100%);
+}
+.intro-gradient-price,
+.hilux-about-usp .count {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}

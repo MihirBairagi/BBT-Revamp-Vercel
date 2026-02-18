@@ -1,0 +1,8 @@
+{
+  "hero_banner": {
+    "banner_subheading": "We are the best when it comes to Exotic Cars.",
+    "banner_heading": "Super Cars <span class='font-thin block lg:inline-block'>For Super Stars</span> ",
+    "banner_image_desktop": "https://bbt-next-app.vercel.app/images/hp-banner-desk.webp",
+    "banner_image_mob": "https://bbt-next-app.vercel.app/images/hp-banner-mob.webp"
+  }
+}
