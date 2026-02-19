@@ -55,7 +55,7 @@ const BottomSheetMenu = ({ isOpen, onClose }) => {
             >
               <ul className="pl-4 py-2 text-[#c8c7c4]">
                 <li className="py-4 ">
-                    <Link href="/realty/bbt-pavilion-vadodara-detail-page" onClick={onClose}  className="text-[1.6rem]" >Pavilion <span className="uppercase" > - Launching In FEB</span></Link>
+                    <Link href="/realty/bbt-pavilion-vadodara-detail-page" onClick={onClose}  className="text-[1.6rem]" >Pavilion <span className="uppercase" > - Launching In April</span></Link>
                 </li>
                 <li className="py-4 ">
                     <Link href=""  className="text-[1.6rem]" >BBT ONE <span className="uppercase" > - Coming Soon</span></Link>
