@@ -51,6 +51,9 @@ const FooterMenuDesktop = ({ brands = [], styles = [], loading = false }) => {
               <li>
                 <Link href="/151-check-points">151 Check Points</Link>
               </li>
+               <li>
+                <Link href="/realty">BBT Realty</Link>
+              </li>
             </ul>
           </div>
         </div>

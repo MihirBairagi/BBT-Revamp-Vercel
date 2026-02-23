@@ -12,7 +12,7 @@ const phoneNumbers = [
     numberLink: "tel:+919999999915",
   },
   {
-    title: "Detailing and Modifications",
+    title: "Detailing & Mods",
     numberText: "(+91) 8999999627",
     numberLink: "tel:+918999999627",
   },
@@ -25,6 +25,11 @@ const phoneNumbers = [
     title: " cars.co.in",
     numberText: "(+91) 9999999908",
     numberLink: "tel:+919999999908",
+  },
+  {
+    title: " BBT Realty",
+    numberText: "(+91) 99999 990 30",
+    numberLink: "tel:+919999999030",
   },
 ];
 

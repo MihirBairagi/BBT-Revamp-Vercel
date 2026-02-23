@@ -6,9 +6,11 @@ import OurShowrooms from "../Components/CommonComponents/OurShowrooms/OurShowroo
 import SellYourCar from "../Components/Homepage/SellYourCar/SellYourCar";
 import ExploreSection from "../Components/Homepage/ExploreSection/ExploreSection";
 import BbtFeatured from "../Components/Homepage/BbtFeatured/BbtFeatured";
+import BbtRealty from "../Components/Homepage/BbtRealty/BbtRealty";
 import { productsAPI } from "./lib/services/api";
 import { productsService } from "./lib/services/products";
 import { fetchMultipleProductGalleries } from "./lib/services/gallery";
+import { isFromGujarat } from "./lib/utils/geolocation";
 
 // Force dynamic rendering to ensure fresh randomization on every page load
 export const dynamic = 'force-dynamic';
@@ -101,23 +103,20 @@ async function getRandomRecentlyAdded() {
 }
 
 export default async function Home() {
-  // Fetch data for the homepage with all random products
-  const newInclusionProducts = await getRandomRecentProducts();
-  
-  // Debug logging
-  // console.log('Homepage data fetched:', {
-  //   featured: featuredProducts.success ? `${featuredProducts.data?.length} products` : 'Failed',
-  //   newInclusion: newInclusionProducts.success ? `${newInclusionProducts.data?.length} products` : 'Failed',
-  //   recentlyAdded: recentlyAddedProducts.success ? `${recentlyAddedProducts.data?.length} products` : 'Failed'
-  // });
-  
+  const [newInclusionProducts, gujaratUser] = await Promise.all([
+    getRandomRecentProducts(),
+    isFromGujarat(),
+  ]);
+
   return (
     <>
       <FloatingButtons />
       <BannerSection />
+      {gujaratUser && <BbtRealty />}
       <NewInclusion recentProducts={newInclusionProducts.data || []} />
       <OtherServices />
       <OurShowrooms />
+      {!gujaratUser && <BbtRealty />}
       <SellYourCar />
       <ExploreSection />
       <BbtFeatured />

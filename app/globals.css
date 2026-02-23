@@ -1502,17 +1502,16 @@ img,
   }
   /* Footer */
   .footerPhoneCol {
-    width: 20%;
+    width: 16.6%;
   }
   .footerShowroomCol {
     width: 20%;
   }
-  .footerPhoneCol:nth-of-type(5),
+  .footerPhoneCol:nth-of-type(6),
   .footerShowroomCol:nth-of-type(5) {
     border-left: 1px solid rgba(235, 235, 240, 0.1);
     padding-left: 2rem;
   }
-
   .single-car .floating-compare-btns,
   .home .floating-compare-btns {
     bottom: 40px;

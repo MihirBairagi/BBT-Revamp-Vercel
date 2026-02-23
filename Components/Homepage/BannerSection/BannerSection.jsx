@@ -32,8 +32,7 @@ const mobLinksSlides = [
   {
     icon: "/images/hp-banner-link-icon-1.webp",
     title: "BBT Realty",
-    link: "#",
-    isComing: true,
+    link: "/realty",
   },
   {
     icon: "/images/hp-banner-link-icon-5.webp",

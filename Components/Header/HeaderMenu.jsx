@@ -1,9 +1,15 @@
-
 import Link from "next/link";
 
+const top_menu_links = [
+  { name: "Explore Collection", href: "/collection" },
+  { name: "Modification & Upgrade", href: "/modifications" },
+  { name: "Car Detailing", href: "/car-detailing" },
+  { name: "Car Servicing", href: "/services" },
+  { name: "Sell Car", href: "/sell-used-luxury-car" },
+  { name: "BBT Realty", href: "/realty" },
+];
+
 const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
-
-
   return (
     <div
       className={`menu-box fixed w-full h-full ${
@@ -27,51 +33,20 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
         <div className="menu-wrapper h-full overflow-y-auto max-h-[100vh] no-scrollbar pb-[150px]">
           <div className="primary-menu-box xl:pt-[30px]">
             <ul className="primary-menu">
-              <li className="my-[5px] transition-all duration-500 hover:pl-[1rem]">
-                <Link
-                  href="/collection"
-                  className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
-                  onClick={() => setOpenMenu(false)}
+              {top_menu_links.map((link, index) => (
+                <li
+                  key={index}
+                  className="my-[5px] transition-all duration-500 hover:pl-[1rem]"
                 >
-                  <span>Explore Collection</span>
-                </Link>
-              </li>
-              <li className="my-[5px] transition-all duration-500 hover:pl-[1rem]">
-                <Link
-                  href="/modifications"
-                  className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
-                  onClick={() => setOpenMenu(false)}
-                >
-                  <span>Modification & Upgrade</span>
-                </Link>
-              </li>
-              <li className="my-[5px] transition-all duration-500 hover:pl-[1rem]">
-                <Link
-                  href="/car-detailing"
-                  className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
-                  onClick={() => setOpenMenu(false)}
-                >
-                  <span>Car Detailing </span>
-                </Link>
-              </li>
-              <li className="my-[5px] transition-all duration-500 hover:pl-[1rem]">
-                <Link
-                  href="/services"
-                  className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
-                  onClick={() => setOpenMenu(false)}
-                >
-                  <span>Car Servicing</span>
-                </Link>
-              </li>
-              <li className="my-[5px] transition-all duration-500 hover:pl-[1rem]">
-                <Link
-                  href="/sell-used-luxury-car"
-                  className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
-                  onClick={() => setOpenMenu(false)}
-                >
-                  <span>Sell Car </span>
-                </Link>
-              </li>
+                  <Link
+                    href={link.href}
+                    className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
+                    onClick={() => setOpenMenu(false)}
+                  >
+                    <span>{link.name}</span>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

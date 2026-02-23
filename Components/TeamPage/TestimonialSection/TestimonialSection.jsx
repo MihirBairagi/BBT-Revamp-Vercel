@@ -1,10 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-const styles = {
-  uspItem:
-    "w-[33%] px-[1.5rem] rounded-[0.7rem] overflow-hidden md:w-[10rem] md:h-[10rem] md:mx-0 md:px-0 md:mb-[2rem] lg:w-[12rem] lg:h-[12rem] lg:mb-0 last-of-type:mb-0 xl:w-[14rem] xl:h-[14rem] 1xl:w-[16rem] 1xl:h-[16rem] 2xl:w-[17rem] 2xl:h-[17rem] 3xl:w-[18.9rem] 3xl:h-[18.9rem] 1xl:rounded-[1rem] 2xl:rounded-[1.3rem] 3xl:rounded-[1.7rem]",
-};
 
 const TestimonialSection = () => {
   return (

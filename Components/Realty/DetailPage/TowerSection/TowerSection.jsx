@@ -89,16 +89,16 @@ function TowerSection() {
                 <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                     <p className="max-[1023px]:text-[2rem] f-28">Basement Plan</p>
                     <p className="max-[1023px]:text-[1.5rem] f-20 mb-[2rem]">
-                    BUA:3296.66
+                    BUA: 31208 Sq. Ft
                     </p>
                     <img className='w-full' src="/realty/images/dp-floor-4.webp" alt="" />
                 </li>
-                <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
+                {/* <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                     <p className="max-[1023px]:text-[2rem] f-28 mb-[2rem]">
                     Layout plans
                     </p>
                     <img className='w-full' src="/realty/images/dp-floor-5.webp" alt="" />
-                </li>
+                </li> */}
                 </ul>
             )}
 
@@ -132,16 +132,16 @@ function TowerSection() {
                     <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                         <p className="max-[1023px]:text-[2rem] f-28">Basement Plan</p>
                         <p className="max-[1023px]:text-[1.5rem] f-20 mb-[2rem]">
-                        BUA:3296.66
+                        BUA: 31208 Sq. Ft
                         </p>
                         <img className='w-full' src="/realty/images/dp-floor-4.webp" alt="" />
                     </li>
-                    <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
+                    {/* <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                         <p className="max-[1023px]:text-[2rem] f-28 mb-[2rem]">
                         Layout plans
                         </p>
                         <img className='w-full' src="/realty/images/dp-floor-5.webp" alt="" />
-                    </li>
+                    </li> */}
                 </ul>
             )}
 
@@ -175,16 +175,16 @@ function TowerSection() {
                     <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                         <p className="max-[1023px]:text-[2rem] f-28">Basement Plan</p>
                         <p className="max-[1023px]:text-[1.5rem] f-20 mb-[2rem]">
-                        BUA:3296.66
+                        BUA: 31208 Sq. Ft
                         </p>
                         <img className='w-full' src="/realty/images/dp-floor-4.webp" alt="" />
                     </li>
-                    <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
+                    {/* <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                         <p className="max-[1023px]:text-[2rem] f-28 mb-[2rem]">
                         Layout plans
                         </p>
                         <img className='w-full' src="/realty/images/dp-floor-5.webp" alt="" />
-                    </li>
+                    </li> */}
                 </ul>
             )}
 
@@ -218,16 +218,16 @@ function TowerSection() {
                     <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                         <p className="max-[1023px]:text-[2rem] f-28">Basement Plan</p>
                         <p className="max-[1023px]:text-[1.5rem] f-20 mb-[2rem]">
-                        BUA:3296.66
+                        BUA: 31208 Sq. Ft
                         </p>
                         <img className='w-full' src="/realty/images/dp-floor-4.webp" alt="" />
                     </li>
-                    <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
+                    {/* <li className="bg-[#F6F6F6] rounded-[1rem] p-[2rem] w-[100%] lg:p-[3rem]">
                         <p className="max-[1023px]:text-[2rem] f-28 mb-[2rem]">
                         Layout plans
                         </p>
                         <img className='w-full' src="/realty/images/dp-floor-5.webp" alt="" />
-                    </li>
+                    </li> */}
                 </ul>
             )}
         </div>
