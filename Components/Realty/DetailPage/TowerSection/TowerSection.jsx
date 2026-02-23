@@ -71,7 +71,7 @@ function TowerSection() {
                 <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%] lg:p-[3rem] flex flex-col justify-between">
                     <img className='w-full' src="/realty/images/tower-1-img-1.webp" alt="" />
                     <p className="max-[1023px]:text-[2rem] f-28 mt-[2rem]">
-                    Typical floor plan ( 1st to 7th )
+                    Typical floor plan (1st to 7th)
                     </p>
                 </li>
                 <li className="text-center bg-[#F6F6F6] rounded-[1rem] p-[4rem] w-[100%] lg:w-[32%]  lg:p-[3rem] flex flex-col justify-between">

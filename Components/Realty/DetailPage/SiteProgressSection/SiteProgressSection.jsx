@@ -10,7 +10,7 @@ function SiteProgressSection() {
         // realtime slider 
     let settings = {
         centerMode: true,            
-        centerPadding: "15%",        
+        centerPadding: "25%",        
         slidesToShow: 1,             
         infinite: true,
         speed: 600,
@@ -24,11 +24,11 @@ function SiteProgressSection() {
         responsive: [
             {
             breakpoint: 1400,
-            settings: { centerPadding: "12%" },
+            settings: { centerPadding: "15%" },
             },
             {
             breakpoint: 1024,
-            settings: { centerPadding: "8%" },
+            settings: { centerPadding: "10%" },
             },
             {
             breakpoint: 768,
