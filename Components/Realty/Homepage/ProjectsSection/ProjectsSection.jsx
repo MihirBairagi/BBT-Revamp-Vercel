@@ -516,18 +516,26 @@ function ProjectsSection() {
                                 </div>
                                 <div>
                                     <div className='hidden lg:block' >
-                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/realty/images/h-sora-img-1.webp" alt="" />
+                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/realty/images/h-sora-img-2.webp" alt="" />
                                     </div>
                                     <div className='lg:hidden' >
-                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/realty/images/h-sora-mob-img-1.webp" alt="" />
+                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/realty/images/h-sora-mob-img-2.webp" alt="" />
                                     </div>
                                 </div>
                                 <div>
                                     <div className='hidden lg:block' >
-                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/realty/images/h-sora-img-1.webp" alt="" />
+                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/realty/images/h-sora-img-3.webp" alt="" />
                                     </div>
                                     <div className='lg:hidden' >
-                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/realty/images/h-sora-mob-img-1.webp" alt="" />
+                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/realty/images/h-sora-mob-img-3.webp" alt="" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className='hidden lg:block' >
+                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/realty/images/h-sora-img-4.webp" alt="" />
+                                    </div>
+                                    <div className='lg:hidden' >
+                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/realty/images/h-sora-mob-img-4.webp" alt="" />
                                     </div>
                                 </div>
                             </Slider>
